@@ -1,0 +1,17 @@
+{
+  "name": "abdurashid-dev/online-market",
+  "description": "first package",
+  "version": "0.1",
+  "autoload": {
+    "psr-4": {
+      "OnlineMarket\\": "/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "OnlineMarket\\Providers\\OnlineMarketServiceProvider"
+      ]
+    }
+  }
+}
